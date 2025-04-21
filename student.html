@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Student Dashboard</title><link rel="stylesheet" href="style.css"></head>
-<body>
-  <h1>Welcome, Student</h1>
-  <p>Submit feedback and earn XP in the Poké-game world!</p>
-  <button onclick="startFeedback()">Start Weekly Feedback</button>
-  <div id="pokeball-ui" style="display:none;">🎮 Pokéball Appears! <button>Open</button></div>
-  <p id="penalty-msg" style="display:none;">You missed feedback this week. Game access limited.</p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - Questivate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dashboard">
+
+    <header class="navbar">
+        <a href="index.html" class="navbar-brand">Questivate</a>
+        <a href="logout.html" class="navbar-link">Logout</a>
+    </header>
+
+    <div class="dashboard-container">
+        <h1 class="dashboard-title">Student Dashboard</h1>
+        <p class="dashboard-info">Track your feedback and progress.</p>
+
+        <section class="feedback-section">
+            <h2>Your Feedback</h2>
+            <p>Your recent feedback: "Great job, keep it up!"</p>
+            <p>Completion Rate: <span class="progress-text">75%</span></p>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-bar-inner" style="width: 75%"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2025 Questivate. All rights reserved.</p>
+        </footer>
+    </div>
+
 </body>
+
 </html>

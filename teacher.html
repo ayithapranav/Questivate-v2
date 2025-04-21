@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Teacher Dashboard</title><link rel="stylesheet" href="style.css"></head>
-<body>
-  <h1>Welcome, Teacher</h1>
-  <div id="summary"></div>
-  <div class="bar"><p>Feedback Quality: <progress value="70" max="100"></progress></p></div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard - Questivate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dashboard">
+
+    <header class="navbar">
+        <a href="index.html" class="navbar-brand">Questivate</a>
+        <a href="logout.html" class="navbar-link">Logout</a>
+    </header>
+
+    <div class="dashboard-container">
+        <h1 class="dashboard-title">Teacher Dashboard</h1>
+        <p class="dashboard-info">Manage your students' feedback and performance.</p>
+
+        <section class="student-feedback">
+            <h2>Student Feedback</h2>
+            <ul>
+                <li class="feedback-item">John Doe: "Great improvement in class!"</li>
+                <li class="feedback-item">Jane Smith: "Needs more participation in group work."</li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <p>© 2025 Questivate. All rights reserved.</p>
+        </footer>
+    </div>
+
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 function mockLogin() {
   alert("Simulating Gmail login...");
-  window.location.href = "dashboard/student.html"; // mock route based on role
+  window.location.href = "student.html"; // mock route based on role
 }
 
 function startFeedback() {

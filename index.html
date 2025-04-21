@@ -1,27 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Questivate</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="js/main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questivate</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="home">
-  <div class="hero">
-    <h1>Welcome to Questivate</h1>
-    <p>Bridging feedback gaps through AI, gamification, and engagement.</p>
-    <a href="login.html" class="btn">Login with School Gmail</a>
-  </div>
-  <section class="info">
-    <h2>Meet the Team</h2>
-    <p>Student-led project for improving school communication. Built with ❤️ by Pranav and team.</p>
-    <h2>Latest Updates</h2>
-    <ul>
-      <li>Game mechanics added for weekly feedback</li>
-      <li>Pokéball UI and AI summaries working</li>
-      <li>New admin dashboard & analytics bar</li>
-    </ul>
-  </section>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar-brand">
+            <img src="icon.png" alt="Questivate Logo" class="navbar-icon"> Questivate
+        </div>
+        <nav>
+            <a href="#blog">Blog</a>
+            <a href="#team">Team</a>
+            <a href="#features">Features</a>
+            <a href="#upcoming-events">Upcoming Events</a>
+        </nav>
+        <a href="login.html" class="login-button">Login</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Welcome to Questivate</h1>
+        <p>Your gateway to interactive learning and feedback!</p>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <h2>Blog</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Latest Updates</h3>
+                <p>Stay updated with our latest news and developments!</p>
+            </div>
+            <div class="card">
+                <h3>How It Works</h3>
+                <p>Learn how Questivate enhances communication between students and teachers.</p>
+            </div>
+            <div class="card">
+                <h3>Student Success Stories</h3>
+                <p>Read inspiring success stories from our users.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+        <h2>Meet The Team</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>John Doe</h3>
+                <p>Lead Developer</p>
+            </div>
+            <div class="card">
+                <h3>Jane Smith</h3>
+                <p>UI/UX Designer</p>
+            </div>
+            <div class="card">
+                <h3>Sarah Lee</h3>
+                <p>Product Manager</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <h2>Features</h2>
+        <div class="cards features-cards">
+            <div class="feature-card">
+                <h3>Interactive Feedback</h3>
+                <p>Provide feedback in an engaging and intuitive way.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Gamification</h3>
+                <p>Turn feedback into a fun and rewarding experience.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Real-Time Updates</h3>
+                <p>Stay updated with real-time notifications and alerts.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Customizable Reports</h3>
+                <p>Create tailored reports to track progress and performance.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Secure Login</h3>
+                <p>Access your data safely with secure login options.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section id="upcoming-events" class="section">
+        <h2>Upcoming Events</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Event 1</h3>
+                <p>Join us for a live session on interactive feedback!</p>
+            </div>
+            <div class="card">
+                <h3>Event 2</h3>
+                <p>Upcoming webinar on gamification in education.</p>
+            </div>
+            <div class="card">
+                <h3>Event 3</h3>
+                <p>Team-building event for the Questivate community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Created by Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

@@ -1,9 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Admin Dashboard</title><link rel="stylesheet" href="style.css"></head>
-<body>
-  <h1>Welcome, Admin</h1>
-  <p>Monitor system stats and flagged concerns.</p>
-  <ul><li>Concern duplicated 5 times - Alert triggered</li></ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Questivate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dashboard">
+
+    <header class="navbar">
+        <a href="index.html" class="navbar-brand">Questivate</a>
+        <a href="logout.html" class="navbar-link">Logout</a>
+    </header>
+
+    <div class="dashboard-container">
+        <h1 class="dashboard-title">Admin Dashboard</h1>
+        <p class="dashboard-info">Welcome to the admin dashboard. Manage users, feedback, and performance.</p>
+
+        <section class="stats">
+            <h2 class="section-title">User Statistics</h2>
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <h3>Total Students</h3>
+                    <p>200</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Teachers</h3>
+                    <p>50</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Feedback</h3>
+                    <p>1500</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback-overview">
+            <h2 class="section-title">Recent Feedback</h2>
+            <ul class="feedback-list">
+                <li class="feedback-item">John Doe: "Excellent participation!"</li>
+                <li class="feedback-item">Jane Smith: "Needs improvement in communication."</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Questivate. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>

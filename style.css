@@ -1,0 +1,5 @@
+body { font-family: sans-serif; background: #fbf5dd; color: #16404d; }
+.hero { text-align: center; padding: 3rem; background: #a6cdc6; }
+.btn, button { background: #dda853; border: none; padding: 1rem; color: white; cursor: pointer; }
+.login-container, .dashboard { padding: 2rem; }
+.bar progress { width: 100%; }
